@@ -3,6 +3,16 @@
 	"EngineAssociation": "{34EDEE17-45B0-D1C3-45C1-D4BC9353C266}",
 	"Category": "",
 	"Description": "",
+	"Modules": [
+		{
+			"Name": "Toon",
+			"Type": "Runtime",
+			"LoadingPhase": "Default",
+			"AdditionalDependencies": [
+				"Engine"
+			]
+		}
+	],
 	"Plugins": [
 		{
 			"Name": "ModelingToolsEditorMode",
